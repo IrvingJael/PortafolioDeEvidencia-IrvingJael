@@ -1,0 +1,66 @@
+
+body{
+	background-color: #13315C;
+	width:1000px;
+ 	margin:0px auto;
+}
+
+header{
+	display: flex;
+	background-color: #EEF4ED;
+	text-align: center;
+}
+
+header h1{
+	text-align: center;
+	font-size: 50px;
+	width: 420px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.opciones{
+	background-color: #134074;
+}
+
+.opciones label{
+	font-size: 25px;
+	color: white;
+}
+
+.opciones div{
+	width: 420px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contenido{
+	display: flex;
+	background-color: #8DA9C4;
+}
+
+.centrar{
+	width: 420px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.botones button{
+	color: white;
+	background: transparent;
+	border: 2px solid white;
+	border-radius: 6px;
+	font-size: 25px;
+	margin-left: 10px;
+
+}
+
+.botones{
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.imagen img{
+	width: 50%;
+}

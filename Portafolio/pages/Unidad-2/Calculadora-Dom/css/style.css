@@ -1,0 +1,32 @@
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	color: red;
+	margin: 0, auto;
+}
+
+
+
+button{
+	margin: 0 auto;
+}
+
+.contenido{
+	display: flex;
+	align-items: center;
+}
+
+.opcion{
+	display: block;
+}
+
+.position{
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	align-content: center;
+	align-items: center;
+}
+
+
+
