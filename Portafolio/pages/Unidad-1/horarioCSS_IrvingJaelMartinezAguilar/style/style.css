@@ -1,0 +1,45 @@
+th{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+	text-transform: uppercase;
+}
+
+.lengaut{
+	color: black;
+	background-color: red;
+}
+
+.formproy{
+	color: black;
+	background-color: blue;
+}
+
+.ingles{
+	color: black;
+	background-color: green;
+}
+
+.progweb{
+	color: black;
+	background-color: yellow;
+}
+
+.lidequip{
+	color: black;
+	background-color: lightblue;
+}
+
+.ingreq{
+	color: black;
+	background-color: lightgoldenrodyellow;
+}
+
+.pie{
+	background-color: gray;
+}
+
+.hora{
+	background-color: lightgray;
+}

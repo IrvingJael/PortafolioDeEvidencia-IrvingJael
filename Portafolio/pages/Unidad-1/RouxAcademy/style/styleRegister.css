@@ -1,0 +1,126 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: lightblue;
+	background-image: url("../images/background_buildings.png");
+}
+
+header{
+	display: flex;
+	background-color: black;
+	color: white;
+}
+
+aside article div{
+	align-content: center;
+}
+
+section p{
+	text-align: justify;
+}
+
+.formreg{
+	text-align: justify;
+	margin-left: 200px;
+	font-family: 'Lucida Sans';
+}
+
+.content{
+	margin-left: 25px;
+}
+
+.content h3{
+	font-family: Arial;
+}
+
+.content h4{
+	font-family: Arial;
+	color: grey;
+}
+
+
+.contenido{
+	max-width: 1000px;
+	margin: 0 auto;
+	background-color: white;
+	
+}
+
+.headtext{
+	margin-left: 100px;
+}
+
+.naveg nav div{
+	background-color: blue;
+}
+
+
+.naveg nav ul li{
+	list-style: none;
+}
+
+
+.naveg nav ul li a{
+	margin-left: 20px;
+	text-decoration: none;
+	font-family: 'Lucida Sans';
+	float: left;
+	
+}
+
+
+.fotop{
+	display: flex;
+	text-align: justify;
+}
+
+
+.cont-prin{
+	display: flex;
+}
+
+
+.cont-prin .main{
+	width: 70%;
+}
+
+.cont-prin aside{
+	width: 30%;
+}
+
+.main, aside{
+	background-color: white;
+	margin: 10px;
+	padding: 10px;
+}
+
+aside h3{
+	color: black;
+	font-family: Arial;
+}
+
+aside h4{
+	color: grey;
+}
+aside p{
+	text-align: justify;
+}
+
+#coming{
+	color: darkred;
+}
+
+footer{
+	display: flex;
+	background-color: grey;
+	color: white;
+}
+
+footer p{
+	text-align: left;
+	font-size: 15px;
+	margin-left: 20px;
+}

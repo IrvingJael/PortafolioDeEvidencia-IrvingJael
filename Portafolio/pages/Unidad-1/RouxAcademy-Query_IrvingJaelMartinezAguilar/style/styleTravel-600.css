@@ -1,0 +1,200 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: lightblue;
+	background-image: url("../images/background_buildings.png");
+}
+
+header{
+	display: flex;
+	background-color: black;
+	color: white;
+}
+
+aside article div{
+	align-content: center;
+}
+
+section p{
+	text-align: justify;
+}
+
+
+.edif{
+	display: flex;
+}
+
+.content{
+	margin-left: 25px;
+}
+
+.content h3{
+	font-family: Arial;
+}
+
+.content h4{
+	font-family: Arial;
+	color: grey;
+}
+
+
+.contenido{
+	max-width: 1000px;
+	margin: 0 auto;
+	background-color: white;
+	
+}
+
+.headtext{
+	margin-left: 100px;
+}
+
+.naveg nav div{
+	background-color: blue;
+}
+
+
+.naveg nav ul li{
+	list-style: none;
+}
+
+
+.naveg nav ul li a{
+	margin-left: 20px;
+	text-decoration: none;
+	font-family: 'Lucida Sans';
+	float: left;
+	
+}
+
+
+.fotop{
+	display: flex;
+	text-align: justify;
+}
+
+
+.cont-prin{
+	display: flex;
+}
+
+
+.cont-prin .main{
+	width: 70%;
+}
+
+.cont-prin aside{
+	width: 30%;
+}
+
+.main, aside{
+	background-color: white;
+	margin: 10px;
+	padding: 10px;
+}
+
+aside h3{
+	color: black;
+	font-family: Arial;
+}
+
+aside h4{
+	color: grey;
+}
+aside p{
+	text-align: justify;
+}
+
+#coming{
+	color: darkred;
+}
+
+footer{
+	display: flex;
+	background-color: grey;
+	color: white;
+}
+
+footer p{
+	text-align: left;
+	font-size: 15px;
+	margin-left: 20px;
+}
+
+
+
+
+/*Iphone X*/
+@media(max-width: 600px) {
+
+	.contenido{
+		padding: 0px;
+	}
+
+	.headtext{
+		display: block;
+	}
+
+	.headtext h2{
+		font-size: 16px;
+	}
+
+	.headtext p{
+		font-size: 10px;
+	}
+
+	.cont-prin{
+		display: block;
+
+	}
+
+	.cont-prin .main, .cont-prin aside{
+		width: 90%;
+		margin: auto;
+	}
+
+	header p{
+		font-size: 10px;
+	}
+
+	header label{
+		font-size: 25px;
+	}
+
+	header img{
+		margin: 10px;
+		width: auto;
+	}
+
+	nav{
+		display: block;
+		float: none;
+		height: auto;
+		width: auto;
+		padding-right: 5px;
+		margin-left: 5px;
+	}
+
+	.contenido #artl{
+		width: 100%;
+	}
+
+	article #phone{
+		width: 25%;
+		margin: auto;
+		padding-left: 210px;
+	}
+
+	.contenido section table{
+		margin: 0 auto;
+		text-align: left;
+	}
+
+	.cont-prin .main h4{
+		font-size: 11px;
+	}
+
+}

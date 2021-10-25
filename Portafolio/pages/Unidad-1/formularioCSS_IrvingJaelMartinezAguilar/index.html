@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Evidencia formativa 1-6 Formulario Web con CSS</title>
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+	</head>
+	<body>
+
+
+		<form form action="#" method="GET">
+			
+
+			<div class="contenido">
+			
+				<header>
+					<h1>Survey for Product X</h1>
+				</header>
+
+				<div class="clearfix">
+					<div class="main">
+
+						<section>
+							<!-- Uso del text para ingresar el nombre del usuario -->
+							<div>
+								<label for="nombre" class="preg">Name: </label>
+								<input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre..." required>
+								<br>
+							</div>
+
+						<br>
+
+						</section>
+
+						<section>
+							<!-- Radio buttons con imagenes para las opciones  -->
+							<div>
+								<label for="carros" class="preg">What car do you prefer: </label>
+								<br>
+								<img src="img/carropeq.jpg">
+								<input type="radio" name="carros" id="carros" value="CarroPequeno"><label>Carro Pequeño</label>
+
+								<img src="img/carro1.jpg">
+								<input type="radio" name="carros" id="carros" value="Carro1"><label>Carro 1</label>
+
+								<img src="img/carro2.jpg">
+								<input type="radio" name="carros" id="carros" value="Carro2"><label>Carro 2</label>
+							</div>
+						</section>
+
+						<br>
+
+						<section>
+							<!-- Checboxes para indicar los aparatos -->
+							<div>
+								<label for="device" class="preg">What's type of devides de you hace at home? </label>
+								<input type="checkbox" name="device" id="device" value="1"><label>Tablet</label>
+								<input type="checkbox" name="device" id="device" value="2"><label>Smartphone</label>
+								<input type="checkbox" name="device" id="device" value="3"><label>Pc</label>
+								<input type="checkbox" name="device" id="device" value="4"><label>Laptop</label>
+								<input type="checkbox" name="device" id="device" value="5"><label>Otro: </label><input type="text" name="otro" id="otro" placeholder="...">
+							</div>
+						</section>
+
+						<br>
+
+						<section>
+							<!-- Ejemplo del select con las carreras de la universidad -->
+							<div>
+								<label for="carrera" class="preg">what's your carrer? </label>
+									<select name="carrera" id="carrera">
+										<option value="1">ITI</option>
+										<option value="2">LCIA</option>
+										<option value="3">MECa</option>
+										<option value="4">ISa</option>
+									</select>
+							</div>
+						</section>
+
+						<br>
+
+						<section>
+							<!-- Uso del texarea para la seccion de comentarios -->
+							<div>
+								<label for="comentario" class="preg">White your comments: </label>
+								<textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+							</div>
+						</section>
+
+						<br>
+
+						<section>
+							<!-- Radio buttons para indicar el nivel de ingles -->
+							<div>
+								<label for="level" class="preg">what's you level of english? </label>
+								<label for="level">Basic</label>
+								<input type="radio" name="level" id="level" value="1"><label>1</label>
+								<input type="radio" name="level" id="level" value="2"><label>2</label>
+								<input type="radio" name="level" id="level" value="3"><label>3</label>
+								<input type="radio" name="level" id="level" value="4"><label>4</label>
+								<input type="radio" name="level" id="level" value="5"><label>5</label>
+								<label for="level">Expert</label>
+							</div>
+						</section>
+
+						<br>
+
+						<section>
+							<!-- 3 radio button para la evaluacion de un servicio de hotel -->
+							<div>
+								<label class="preg">Give us you opinion: </label> <br>
+								<label for="room">Room services: </label>
+								<input type="radio" name="room" id="room" value="bad"><label>Bad</label>
+								<input type="radio" name="room" id="room" value="regular"><label>Regular</label>
+								<input type="radio" name="room" id="room" value="good"><label>Good</label>
+								<input type="radio" name="room" id="room" value="excelent"><label>Excelent</label>
+			
+
+								<br>
+
+			
+								<label for="reservation">Reservation Service: </label>
+								<input type="radio" name="reservation" id="reservation" value="bad"><label>Bad</label>
+								<input type="radio" name="reservation" id="reservation" value="regular"><label>Regular</label>
+								<input type="radio" name="reservation" id="reservation" value="good"><label>Good</label>
+								<input type="radio" name="reservation" id="reservation" value="excelent"><label>Excelent</label>
+			
+
+								<br>
+
+								<label for="restaurant">Restaurant: </label>
+								<input type="radio" name="restaurant" id="restaurant" value="bad"><label>Bad</label>
+								<input type="radio" name="restaurant" id="restaurant" value="regular"><label>Regular</label>
+								<input type="radio" name="restaurant" id="restaurant" value="good"><label>Good</label>
+								<input type="radio" name="restaurant" id="restaurant" value="excelent"><label>Excelent</label>
+							</div>
+						</section>
+
+						<br>
+
+						<section>
+							<!-- Calendario para indicar la fecha de nacimiento -->
+							<div>
+								<label for="birth" class="preg">Date of birth: </label>
+								<input type="date" name="birth" id="birth">
+							</div>
+						</section>
+
+						<br>
+
+						<!-- Boton para enviar el contenido -->
+						<div>
+							<input type="submit" value="Enviar">
+						</div>
+					
+						<!-- Espacio de relleno -->
+						<br>
+						<br>
+						<br>
+
+					</div>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>

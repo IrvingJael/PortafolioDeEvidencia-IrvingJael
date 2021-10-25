@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Evidencia formativa 1.4 Horario con CSS</title>
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+	</head>
+	<body>
+		<!-- Inicio de la Tabla -->
+		<table border="2">
+
+			<thead>
+				<tr>
+					<!-- Fila con la informacion general del alumno en el encabezado -->
+					<th colspan="6">
+						<img src="img/upv.png" alt="Logo de la universidad" width="10%">
+						<dl>
+							<dt>Nombre: Irving Jael Martinez Aguilar</dt>
+							
+							<dt>Matricula: 1930304</dt>
+
+							<dt>Periodo escolar: SEPTIEMBRE-DICIEMBRE 2021</dt>
+
+							<dt>Programa academico: INGENIERÍA EN TECNOLOGÍAS DE LA INFORMACIÓN</dt>
+
+							<dt>Plan de estudio: ITI-2018</dt>
+							<dd>Cede: Ciudad Victoria</dd>
+
+						</dl>
+					</th>
+				</tr>
+
+				<tr>
+					<!-- Fila para organizar la estructura del horario de clases -->
+					<th colspan="6">HORARIO DE CLASES</th>
+				</tr>
+
+				<tr>
+					<th>Hora</th>
+					<th>Lunes</th>
+					<th>Martes</th>
+					<th>Miercoles</th>
+					<th>Jueves</th>
+					<th>Viernes</th>
+				</tr>
+
+			</thead>
+
+			<!-- Cuerpo la tabla -->
+			<tbody>
+
+				<tr>
+					<!-- Primera hora de clase -->
+					<th class="hora">07:00-07:55</th>
+					<th class="lengaut" rowspan="2">LENGUAJES Y AUTOMATAS</th>
+					<th class="lengaut" rowspan="2">LENGUAJES Y AUTOMATAS</th>
+					<th class="lengaut" rowspan="2">LENGUAJES Y AUTOMATAS</th>
+					<th class="lengaut" rowspan="2">LENGUAJES Y AUTOMATAS</th>
+					<th class="formproy" rowspan="2">FORMULACION DE PROYECTOS DE TECNOLOGIAS DE LA INFO</th>
+				</tr>
+				
+				<tr>
+					<!-- Segunda hora, no tiene nada por que las primeras dos horas 
+						son ocupadas por la clase anterior -->
+					<th class="hora">07:55-08:50</th>
+				</tr>
+
+				<tr>
+					<!-- Tercera hora -->
+					<th class="hora">08:50-09:45</th>
+					<th class="ingles" rowspan="2">INGLÉS VII</th>
+					<th class="ingles">INGLÉS VII</th>
+					<th class="ingles">INGLÉS VII</th>
+					<th class="ingles">INGLÉS VII</th>
+					<th class="ingles">INGLÉS VII</th>
+				</tr>
+
+				<tr>
+					<!-- Cuarta hora -->
+					<th class="hora">09:45-10-40</th>
+					<th class="progweb">PROGRAMACIÓN WEB</th>
+					<th class="progweb">PROGRAMACIÓN WEB</th>
+					<th class="progweb">PROGRAMACIÓN WEB</th>
+					<th class="progweb">PROGRAMACIÓN WEB</th>
+				</tr>
+
+				<tr>
+					<!-- Receso -->
+					<th class="hora">10:40-11-10</th>
+					<th colspan="5">R E C E S O</th>
+					
+				</tr>
+
+				<tr>
+					<!-- Quinta hora -->
+					<th class="hora">11:10-12:05</th>
+					<th class="lidequip">LIDERAZGO DE EQUIPOS DE ALTO DESEMPEÑO</th>
+					<th class="lidequip">LIDERAZGO DE EQUIPOS DE ALTO DESEMPEÑO</th>
+					<th class="progweb">PROGRAMACIÓN WEB</th>
+					<th class="progweb">PROGRAMACIÓN WEB</th>
+					<th class="lidequip" rowspan="2">LIDERAZGO DE EQUIPOS DE ALTO DESEMPEÑO</th>
+				</tr>
+
+				<tr>
+					<!-- Sexta hora -->
+					<th class="hora">12:05-13:00</th>
+					<th class="formproy">FORMULACION DE PROYECTOS DE TECNOLOGIAS DE LA INFO</th>
+					<th class="formproy">FORMULACION DE PROYECTOS DE TECNOLOGIAS DE LA INFO</th>
+					<th class="formproy">FORMULACION DE PROYECTOS DE TECNOLOGIAS DE LA INFO</th>
+					<th class="formproy">FORMULACION DE PROYECTOS DE TECNOLOGIAS DE LA INFO</th>
+				</tr>
+
+				<tr>
+					<!-- Septima hora -->
+					<th class="hora">13:00-13:55</th>
+					<th class="ingreq">INGENIERIA DE REQUISITOS</th>
+					<th class="ingreq">INGENIERIA DE REQUISITOS</th>
+					<th class="ingreq">INGENIERIA DE REQUISITOS</th>
+					<th class="ingreq">INGENIERIA DE REQUISITOS</th>
+					<th class="ingreq">INGENIERIA DE REQUISITOS</th>
+				</tr>
+
+			</tbody>
+
+			<tfoot>
+				<!-- Pie de la tabla -->
+				<tr>
+					<!-- Horas totales por dia -->
+					<th class="pie" rowspan="2">Total Horas</th>
+					<th class="pie" rowspan="2">7</th>
+					<th class="pie" rowspan="2">7</th>
+					<th class="pie" rowspan="2">7</th>
+					<th class="pie" rowspan="2">7</th>
+					<th class="pie" rowspan="2">7</th>
+				</tr>
+				<!-- Espacio para que sean mas grandes los rectangulos de las horas -->
+				<tr></tr>
+
+			</tfoot>
+
+		</table>
+
+	</body>
+</html>

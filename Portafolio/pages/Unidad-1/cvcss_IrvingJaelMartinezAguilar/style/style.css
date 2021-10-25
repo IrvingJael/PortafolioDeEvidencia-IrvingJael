@@ -1,0 +1,98 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.justificado{
+	text-align: justify;
+}
+
+.cont-prin{
+	display: flex;
+}
+
+.clearfix{
+	clear: both;
+}
+
+ul{
+	list-style: none;
+}
+
+section{
+	margin-bottom: 20px;
+}
+
+section h2{
+	color: #444545;
+	font-family: Georgia;
+	font-size: 25px;
+	border-bottom: 2px solid #B5FFE9;
+}
+
+body{
+	background-color: #C5E0D8;
+}
+
+.contenido{
+	max-width: 1000px;
+	margin: 0 auto;
+	background-color: #C9C9C9;
+}
+
+header h1{
+	font-family: Arial;
+	font-size: 100px;
+	font-weight: 500;
+	text-align: center;
+	color: white;
+}
+
+header img{
+	text-align: center;
+}
+
+.cont-prin{
+	display: flex;
+}
+
+.cont-prin .main{
+	width: 70%;
+}
+
+footer{
+	background-color: #CEABB1;
+	text-align: center;
+	border-bottom: 5px;
+	
+}
+
+.datosper dt{
+	font-size: 25px;
+}
+
+.datosper dd{
+	margin-left: 20px;
+}
+
+.herramientas .titulo{
+	color: black;
+	font-size: 25px;
+}
+
+
+.educacion dt{
+	font-size: 25px;
+}
+
+.educacion li{
+	margin-left: 20px;
+}
+
+.referencias dt{
+	font-size: 25px;
+}
+
+.referencias li{
+	margin-left: 20px;
+}

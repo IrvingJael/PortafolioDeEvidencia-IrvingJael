@@ -1,0 +1,223 @@
+/**/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: lightblue;
+	background-image: url("../images/background_buildings.png");
+
+}
+
+header{
+	display: flex;
+	background-color: black;
+	color: white;
+}
+
+aside article div{
+	align-content: center;
+} 
+
+section{
+	display: flex;
+	text-align: justify;
+}
+
+.contart h3{
+	font-family: Arial;
+	color: grey;
+	border-bottom: 2px solid #2A2E45;
+}
+
+.contenido{
+	max-width: 1000px;
+	margin: 0 auto;
+	background-color: white;
+	
+}
+
+.headtext{
+	margin-left: 100px;
+}
+
+.naveg nav div{
+	background-color: blue;
+}
+
+
+.naveg nav ul li{
+	list-style: none;
+}
+
+
+.naveg nav ul li a{
+	margin-left: 20px;
+	text-decoration: none;
+	font-family: 'Lucida Sans';
+	float: left;
+	
+}
+
+
+.fotop{
+	display: flex;
+	text-align: justify;
+}
+
+
+.cont-prin{
+	display: flex;
+}
+
+
+.cont-prin .main{
+	width: 70%;
+}
+
+.cont-prin aside{
+	width: 30%;
+}
+
+.main, aside{
+	background-color: white;
+	margin: 10px;
+	padding: 10px;
+}
+
+aside h3{
+	color: black;
+}
+
+aside h4{
+	color: grey;
+}
+aside p{
+	text-align: justify;
+}
+
+#coming{
+	color: darkred;
+}
+
+footer{
+	display: flex;
+	background-color: grey;
+	color: white;
+}
+
+footer p{
+	text-align: left;
+	font-size: 15px;
+	margin-left: 20px;
+}
+/**/
+
+/*
+
+Medias
+
+*/
+
+
+
+/*(min-width: 0px) and (max-width: 999px)*/
+
+/*Ipad Pro*/
+@media (min-width: 0px) and  (max-width: 1024px){
+
+	h1{
+		font-size: 10px;
+	}
+
+	.headtext h2{
+		font-size: 32px;
+	}
+
+	.headtext p{
+		font-size: 20px;
+	}
+
+	header label{
+		font-size: 50px;
+	}
+
+	header img{
+		margin: 20px;
+		width: auto;
+	}
+
+	.contenido #artl{
+		width: 100%;
+	}
+
+	nav{
+		display: block;
+		float: none;
+		height: auto;
+		width: auto;
+		padding-right: 10px;
+		margin-left: 10px;
+	}
+
+	.naveg li a{
+		font-size: 25px;
+		margin-right: 35px;
+	}
+
+	body, header, .cont-prin, footer{
+		width: auto;
+	}
+
+	body{
+		margin: 0 auto;
+	}
+
+	.cont-prin .main, .cont-prin aside{
+		width: 100%;
+		margin: auto;
+	}
+
+	.cont-prin .main img{
+		width: 100%;
+	}
+
+
+	.cont-prin{
+		display: block;
+		
+	}
+
+	.main p{
+		font-size: 20px;
+	}
+
+	.main h2{
+		font-size: 30px;
+	}
+
+
+	aside article h3{
+		font-size: 30px;
+	}
+
+	aside article h4{
+		font-size: 27px;
+	}
+
+	aside article p{
+		font-size: 25px;
+	}
+
+	aside article img{
+		width: 35%;
+	}
+
+	article #phone{
+		width: 25%;
+		padding-left: 350px;
+	}
+
+}
+
